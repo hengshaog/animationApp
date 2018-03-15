@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppThemes" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomTitle" parent="ShowcaseView">
+        <item name="android:textColor">#deffffff</item>
+        <item name="android:background">#DEBAB640</item>
+    </style>
+
+
+    <style name="CustomShowcaseTheme2" parent="ShowcaseView">
+        <item name="sv_backgroundColor">#e5f42b38</item>
+        <item name="sv_showcaseColor">#e24eac</item>
+        <item name="sv_buttonText">OK</item>
+        <item name="sv_tintButtonColor">false</item>
+        <item name="sv_titleTextAppearance">@style/CustomTitle2</item>
+        <item name="sv_detailTextAppearance">@style/CustomText2</item>
+    </style>
+
+
+    <style name="CustomTitle2" parent="TextAppearance.ShowcaseView.Title.Light">
+        <item name="android:textColor">#17292828</item>
+    </style>
+
+    <style name="CustomText2" parent="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">#8affffff</item>
+    </style>
+
+
+    <style name="CustomText" parent="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">#DEBAB640</item>
+    </style>
+
+
+
+    <style name="Widget.MaterialSheetFab.Sheet" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextAppearance.MaterialSheetFab.Sheet.Item" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">30px</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:drawablePadding">30px</item>
+    </style>
+
+
+</resources>
